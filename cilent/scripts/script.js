@@ -115,7 +115,7 @@ document.onkeydown = function (event) {
             socket.emit('keyPress', { inputId: 'left', state: true });
         else if (event.keyCode === 87) //w
             socket.emit('keyPress', { inputId: 'up', state: true });
-        else if (event.keyCode === 32) //space
+        else if (event.keyCode === 75) //k
             socket.emit('keyPress', { inputId: 'shoot', state: true });
     }
 };
